@@ -1,0 +1,43 @@
+# Ignorar archivos y directorios generados automáticamente
+node_modules/
+dist/
+coverage/
+
+# Ignorar archivos de configuración local
+.env
+.env.local
+.env.*.local
+
+# Ignorar archivos de registro y caché
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+.cache/
+.vscode/
+
+# Ignorar archivos de compilación y paquetes
+*.pem
+*.key
+*.cert
+*.pub
+*.pfx
+*.p12
+*.seed
+*.csr
+*.crt
+*.pem
+#*.json
+*.lock
+*.xml
+*.yaml
+*.yml
+
+# Ignorar archivos de dependencias de editor
+.idea/
+*.swp
+*~
+.DS_Store
